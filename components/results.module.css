@@ -1,0 +1,232 @@
+@media only screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    width: 145%;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .selection {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 24px;
+  }
+
+  .card {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .paper {
+    width: 275px;
+    height: 275px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, hsl(230, 89%, 62%), hsl(230, 89%, 65%))
+        border-box;
+    border-image-slice: 1; /* You can adjust this value to control the border image slicing */
+    border: 30px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scissors {
+    width: 275px;
+    height: 275px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, hsl(39, 89%, 49%), hsl(40, 84%, 53%)) border-box;
+    border-image-slice: 1; /* You can adjust this value to control the border image slicing */
+    border: 30px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rock {
+    width: 275px;
+    height: 275px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, hsl(349, 71%, 52%), hsl(349, 70%, 56%))
+        border-box;
+    border-image-slice: 1; /* You can adjust this value to control the border image slicing */
+    border: 30px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resultsCon {
+    width: 300px;
+    display: flex;
+    min-height: 100%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .resultsDet {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 58px;
+  }
+
+  .resetBut {
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+  }
+
+  .selection {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+
+  .card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+    min-width: 150px;
+    min-height: 172px;
+  }
+
+  .paper {
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, hsl(230, 89%, 62%), hsl(230, 89%, 65%))
+        border-box;
+    border-image-slice: 1; /* You can adjust this value to control the border image slicing */
+    border: 15px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paper img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .scissors {
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, hsl(39, 89%, 49%), hsl(40, 84%, 53%)) border-box;
+    border-image-slice: 1; /* You can adjust this value to control the border image slicing */
+    border: 15px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scissors img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .rock {
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, hsl(349, 71%, 52%), hsl(349, 70%, 56%))
+        border-box;
+    border-image-slice: 1; /* You can adjust this value to control the border image slicing */
+    border: 15px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rock img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .resultsCon {
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: -150px;
+  }
+
+  .resultsDet {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 58px;
+  }
+
+  .resetBut {
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 24px;
+  }
+}

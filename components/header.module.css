@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1000px) {
+  .scoreboard {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: white;
+    margin: 3%;
+    border-radius: 5px;
+    width: 150px;
+  }
+
+  .margin {
+    margin: 4%;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(229, 64%, 46%);
+    letter-spacing: 2.4px;
+  }
+
+  .number {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .scoreboard {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: white;
+    margin: 3%;
+    border-radius: 5px;
+    width: 100px;
+  }
+
+  .margin {
+    margin: 6%;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(229, 64%, 46%);
+  }
+
+  .number {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}

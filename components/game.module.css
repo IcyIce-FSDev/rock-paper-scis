@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1000px) {
+  .regular {
+    min-width: 493px;
+    min-height: 308px;
+    width: 0;
+    margin: 0 auto;
+    background-image: url("/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .regular {
+    min-width: 300px;
+    min-height: 225px;
+    width: 0;
+    background-image: url("/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
