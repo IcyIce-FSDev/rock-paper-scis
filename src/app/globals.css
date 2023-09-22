@@ -154,7 +154,7 @@
       hsl(214, 47%, 23%),
       hsl(237, 49%, 15%)
     );
-    border: 1px solid white;
+
     gap: 120px;
   }
 
@@ -176,7 +176,7 @@
     letter-spacing: 2px;
     cursor: pointer;
     position: absolute;
-    top: 700px;
+    top: 600px;
   }
 
   /* Add this CSS for greyscale effect */
